@@ -1,7 +1,6 @@
 
 import sqlite3
 import pandas as pd  
-
 import datetime as dt
 import AlphacastKey as key
 from alphacast import Alphacast
@@ -10,7 +9,7 @@ from alphacast import Alphacast
 ##Paso 1 Conectar a la DB y traer el ultimo registro
 ##Eso nos permitira saber que fechas faltan en nuestra DB
 #Path de la base SQLite (cambiar segun corresponda)
-db_path = 'I:/Mis Documentos/Onedrive/Python/Practica/Bonos Arg/'
+db_path = 'D:/Documentos/GitHub/Bonos Argentinos/Bonos-Arg/'
 db_file = "Bonosusd.db"
 
 #Me conecto a la base, la conexion queda dentro de la variable
